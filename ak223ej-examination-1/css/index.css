@@ -1,0 +1,24 @@
+img{
+    margin: 2%;
+}
+
+aside  {
+	
+	color: wheat;
+    float: right;
+    width: 20%;
+    background-color: #131a24;
+    padding-top: 30px;
+	text-align: center;
+    -webkit-text-fill-color: orange;
+    font-size: 20px;
+    padding-right: 20px;
+
+}
+#aside1 p{
+ font-size: 15px;
+
+}
+h4{
+    color: #131a24;
+}

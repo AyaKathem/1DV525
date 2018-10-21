@@ -1,0 +1,10 @@
+/* TEAM */
+	Creator: Aya Kathem
+	Twitter: @Aya altaie
+	From: V?xj?, Sweden
+
+/* SITE */
+	Last update:2017/09/12
+	Language: English
+	Standards: HTML, HTML5, CSS3
+	

@@ -1,0 +1,17 @@
+fieldset {
+
+    position: relative;
+    color: white;
+    width:500;
+    margin: 2%;
+ 
+}
+
+button{
+
+    position: static;
+    width:80;
+    margin: 2%;
+   
+
+}

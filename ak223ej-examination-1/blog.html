@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang ="en">
+  <head>
+	<link rel="author" href="humans.txt" />	
+	<meta charset="utf-8">		
+	<meta property="og:title" content="Blog" />
+	<meta property="og:image:url" content= "images/flow.jpg" />
+	<meta property="og:url" content="http://1dv525.github.io/ak223ej-examination-1/blog.html" />
+	<link rel="stylesheet" type="text/css" href="css/sccstyle.css"/>
+	<link rel="stylesheet" type="text/css" href="css/Blog.css"/>
+	<title>Blog</title>
+ </head>
+ <body>
+	
+	<header>
+			
+			<svg width="1100" height="90">
+			 <rect x="20" y="20" width="1010" height="80"
+			 style="fill:white;stroke:rgb(255, 179, 38);stroke-width:5;fill-opacity:0;stroke-opacity:0.9" />
+			</svg>
+	
+			<svg width="1100" height="80">
+			 <rect x="996" y="5" width="50" height="50"
+			 style="fill:white;stroke:black;stroke-width:3;fill-opacity:0;" />
+			</svg>
+			
+			<svg width="1100" height="80">
+			 <rect x="980" y="35" width="35" height="35"
+			 style="fill: rgba(0,56, 67, 86);stroke:5;fill-opacity:0.5;" />
+			</svg>
+			<h3>My Project</h3>
+			   
+	</header>
+	
+	
+
+	<nav>
+	
+		<ul id="menm">
+					
+			   <li><a href="index.html">Home</a></li>
+				<li> <a href="blog.html"> blog </a> </li>
+				 <li><a href="about1.html">about </a> </li>
+				  <li><a href="contact.html">Contact </a> </li>
+		</ul>
+
+	</nav>      
+	
+	
+	
+	
+	<main>
+		<article id= "article1" >
+				<h4>The Robots Exclusion Protocol</h4>
+				<P> REP has produced in 1994 and release in 1997.  Is a text file used by websites developers to define crawler directives for robots.txt.
+					The main option for the robots.txt is which areas of the website should not be processed or scanned. 
+					roborts.txt use the terms of "allow " or "disallow " to allow or disallow when a  robot want to visits a web site URL.
+			<br>
+					The process is :
+					Let say a robot wants to visit a Web site URL, say 
+					http://www.ak223ej.com/contact.html. 
+					before it visits the site it will check the rebot.txt file.
+			<br>
+			<br>
+					 <mark> User-agent: *
+						 <br>
+					Disallow: /
+					</mark>
+	
+			<br>
+			<br>
+				The "User-agent: *" means this section applies to all robots. The "Disallow: /" tells the robot is disallow visit any pages on the site.
+				The rebot.txt is not enough to secure the web, Especially when it is related to malware robots that exploit vulnerabilities on the web site. 
+							   
+			<br>
+				
+			<br>
+				<h5> How to config the rebot.txt</h5>
+		<ul>
+			<li> Create an txt file</li>
+			<li> The name has to be robots.txt</li>
+			<li> The rebots file has to place in the highest-level directory of the site.</li>
+			<li> Then fill the rebots.txt by what you want to allow or disallow by using the instruction above.</li>
+		</ul>
+		</article>
+			
+	
+	<aside>
+	  <h4>Humans.txt </h4>
+			  <p>
+				  
+				The humans.txt used for knowing the developers and designer behind the website and some other information about people behind 
+				the website.The name of the text file has to be humans.txt and place on the site highest-level directory. humans.txt have the possibility
+				 to be linked in the head of the site.
+			</p>
+	</aside>
+
+	<article >
+		<h4>Open Graph</h4>
+				<p>
+					The open graph has produced firstly by Facebook. Facebook used Open graph to integration between Facebook 
+					 and its user data and a website. By using integrating Open Graph meta tags into developers page's content,
+					  the developers can identify which elements of your page they want to show when someone share's their page.
+					   For example the developers can specify an image when someone share thier page. 
+							<br>
+							Example how to implement open graph met tagges
+					</p>
+					<img src="images/OPENGRAPH.png" alt="opengraph" width="550" height="180" style="margin: 10px 20px 0px 0px;" />		  
+	</article>
+		  
+	
+		
+	<article>
+			<h4>Why is it important to seperate the layout and design (css) from content (html)?</h4>
+				<ul>
+					
+					<li> Firstly, no need to writing the code several times.   </li>
+					<li> Secondly, when we separate the CSS file the browser will not need
+						 to download the same file several times "the file will be catch".
+						 The advantage of this way is to make the browser much faster  </li>
+				</ul>
+					
+	</article>
+</main>
+
+
+		<footer>
+		
+					<p>This web page made by: Aya Kathem </p>
+					<p>Email address: ak223ej@student.lnu.se</p>
+			
+		</footer> 
+	</body>	
+</html>

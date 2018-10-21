@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<link rel="author" href="humans.txt" />
+<meta charset="utf-8">
+<meta property="og:title" content="My Project" />
+<meta property="og:image:url"  content= "images/flow.jpg" />
+<meta property="og:url" content="https://1dv525.github.io/ak223ej-examination-1/index.html" />
+<script src= "app.js"> </script>
+<link rel="stylesheet" type="text/css" href="css/sccstyle.css"/>
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+<title>Start page</title>
+</head>
+
+<body>
+<div id="title">
+		
+		<br />	 
+		<svg width="1100" height="90">
+         <rect x="20" y="20" width="1010" height="80"
+		 style="fill:white;stroke:rgb(255, 179, 38);stroke-width:5;fill-opacity:0;stroke-opacity:0.9" />
+		</svg>
+
+		<svg width="1100" height="80">
+         <rect x="996" y="5" width="50" height="50"
+		 style="fill:white;stroke:black;stroke-width:3;fill-opacity:0;" />
+		</svg>
+
+		<svg width="1100" height="80">
+         <rect x="980" y="35" width="35" height="35"
+		 style="fill: rgba(0,56, 67, 86);stroke:5;fill-opacity:0.5;" />
+		</svg>
+		<h2> My Project</h2>
+         
+</div>
+		<ul id="menm">
+                
+           <li><a href="index.html">Home</a></li>
+            <li> <a href="blog.html">Blog </a></li>
+            <li><a href="about1.html">about </a></li>
+			 <li><a href="contact.html"> contact </a></li>
+        </ul>     
+
+<div class="falt"> 
+	  
+<h3> Welcome to my page :)</h3>
+ 
+<aside id ="aside1">
+		<h4>Linneuniversitet</h4>
+		<p>Linnaeus University (LNU) (Swedish: Linneuniversitetet) is a state university in the Smaland region of Sweden.
+		   It has two campuses, one in Vaxjo and one in Kalmar. Linnaeus University was established in 2010 by a merger
+			of former Vaxjo University and Kalmar University , and has been named in honour of botanist Carl Linnaeus 
+		  </p>
+	   </aside>
+<img src="images/vaxjo.jpg" alt="Smiley face" height="300" width="600" >
+<img src="images/linne.jpg" alt="Smiley face" height="300" width="600" >
+	
+
+
+<div id="demo">
+	<h2>The XMLHttpRequest Object</h2>
+	<button type="button" onclick="loadDoc()">Change Content</button>
+	</div>
+	
+</div>
+
+
+	
+<script>
+function loadDoc() {
+	var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function() {
+	  if (this.readyState == 4 && this.status == 200) {
+		document.getElementById("demo").innerHTML =
+		this.responseText;
+	  }
+	};
+	xhttp.open("GET", "ajax_info.txt", true);
+	xhttp.send();
+  }
+</script>
+		<footer>
+				<p>This web page made by: Aya Kathem </p>
+				<p>Email address: ak223ej@student.lnu.se</p>
+		</footer>
+</body>
+</html>

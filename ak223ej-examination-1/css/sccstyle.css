@@ -1,0 +1,163 @@
+
+
+
+
+#title {  /* do the width bigger and  the font boloder  */
+	
+	width:950px;
+	margin:10px auto;
+	height:120px;
+	
+	
+	
+	}
+	
+	body {
+		background-image: url("http://www.pthinks.com/wp/wp-content/uploads/2015/06/White-Background-Wallpaper.jpg");
+		background-color: #cccccc;
+		background-repeat: no-repeat;
+		background-size:1650px 1800px;
+		width:950px;
+		margin:0px auto;
+		height:120px;
+	}
+	
+
+	
+	svg {
+	position : absolute;	
+	}
+	
+	
+	
+	
+	h2 { /*more spcifiction to the title*/
+	
+		
+		font-weight:bolder;
+		font-size:50px;
+		color: rgba(0,56, 67, 86);
+		position : relative;
+		padding-left: 6%;
+	
+		
+	
+	}
+	
+	h3 { /*more spcifiction to the title*/
+	
+		font-weight:bolder;
+		font-size:20px;
+		color: white;
+		position : relative;
+		padding-left: 2%;
+	
+	}
+	
+	#menm { /*control the rectangle of the menu*/
+		width:109%;
+		list-style:none;
+		background:0 to(#0C090A);
+	
+		/* to get rainbow colors*/
+		background: linear-gradient(to right, rgba(0,56, 67, 86),rgba(67,198,219,0.70), rgb(92, 242, 172),rgba(247, 96, 167, 0.73),rgba(241, 156, 20, 0.86));
+			background: linear-gradient (linear, left top, left bottom, from(#3D3C3A), to(#0C090A));
+		
+		/**cotrol the list*/
+		margin:0;
+		padding:10px 4px 4px 10px;
+	}
+	
+	article { 
+		display: block;
+		border: 2px solid #000;
+	}
+	
+	
+	
+	
+	#menm li { /*conrol the list that will be display in the menu*/
+	float:left;
+	position:relative;
+	padding:0 0 10px;
+	}
+	
+	
+	#menm a {
+	float:left;
+	height:25px;
+	color: white;
+	text-transform:uppercase;
+	font:bold 15px/30px Arial, Helvetica;
+	text-decoration:none;
+	text-shadow: -1px 0 orange, 0 1px orange, 1px 0 orange, 0 -1px orange;
+	padding:0 25px;
+	}
+	
+	li :hover{
+	   -webkit-text-fill-color: rgb(255, 222, 163);
+		
+	}
+	
+	#menm:after {  /*final look of the menu */
+	visibility:hidden;
+	display:block;
+	font-size:0;
+	content:" ";
+	clear:both;
+	height:0;
+	}
+	
+	
+	.falt { /* make a ractangle  with */
+		float:left;
+		background:rgba(3, 58, 83, 0.53);
+			width: 110%;
+			width: 1050px;
+			height: 1000px;
+			margin-top: 50px;
+			
+			
+		
+	}
+	
+	
+	.falt p { /*setting for text witا white color */
+		padding-bottom:50px;
+		padding:30px 0 0 20px;
+		font-size:20px;
+		font-weight: 60px;
+		color:#FFFFFF;
+		
+	}
+	
+	
+	.video {
+		float:right;
+		padding:20px 20px 0 10px;
+	
+	}
+	
+	footer {
+	
+		background:rgba(3, 58, 83, 0.53);
+		border: 2px solid #000;
+		border-radius:10px;
+		float:left;
+		margin:50px auto;
+		
+		width:1050px;
+		position: relative;
+		height: 120px;
+		
+		} 
+	
+	footer p {
+		font-size:18px;
+		color:#FFFFFF;
+		
+		padding:5px 0 0 20px;
+		}
+	
+		 
+	  
