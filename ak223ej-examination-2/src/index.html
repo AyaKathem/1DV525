@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+        
+
+        
+        <div id="info">
+                <p id = "starttext">Enter your name to Start the game:</p
+                <label for="username">Username:</label>
+                
+                <input type="text" id="username">
+                <label for="age">age:</label>
+                <input type="text" id="age" >
+        
+                <button id="startbutton" onclick="iFunction()" value="start"></button>
+        </div>
+        
+        <div id="quiz">
+                <p id="demo"></p>
+                <div id="countdown">20</div>
+                <input  id ="answare" type="text">
+        
+                <form onsubmit="return false;">
+                <UL id = "list">
+                        
+                        <INPUT TYPE=RADIO NAME="choice" VALUE="choice1"><BR>
+                        
+                        <INPUT TYPE=RADIO NAME="choice" VALUE="choice2"><BR>
+                        
+                        <INPUT TYPE=RADIO NAME="choice" VALUE="choice3"><BR>
+                        
+                        <INPUT TYPE=RADIO NAME="choice" VALUE="choice4"><BR>
+                                        
+                  </UL>
+                </form>
+                        
+        
+                <button id ="nextbutton1" type="button" onclick="loadDoc()" >Request data</button>
+                <button id ="nextbutton" type="button" onclick="loadDoc2()">Send answare</button>
+        </div>
+        
+        <script src="build.js"></script>
+    </body>
+</html>
