@@ -1,0 +1,5 @@
+Make sure node.js and npm is installed on your system.
+
+npm install
+npm start
+Browse to http://localhost:4000
