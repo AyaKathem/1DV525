@@ -1,0 +1,50 @@
+body {
+    width:100%;
+    height:100%;
+    overflow: hidden
+    
+}
+/*The upper bar of every new window*/
+
+.draggable {
+
+    height: 25px;
+    margin: 5px;
+    background: #333;
+    left: 1px;
+    top: 1px;
+    pointer-events: painted;
+  
+  
+  }
+
+  .closeB {
+    margin-top: 3px;
+    margin-right: 5px;
+    float: right;
+    position: relative;
+    background-color: #4C6BAF;
+    border: none;
+    color: #E3EFFF;
+    text-align: center;
+    font-weight: bold;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow:  0 0 2px #656568, 0 0;
+    text-shadow: 0 0 25px blue, 0 0;
+
+}
+
+.closeB:hover {
+    content: "";
+    color: #000000;
+    display: block;
+}
+
+
+
+
+  

@@ -1,0 +1,61 @@
+/*
+* start manu
+*/
+body, html{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+  
+  
+}
+
+
+.toolbar {
+  
+    background-color: rgba(19, 19, 19, 0.9);
+    height: 50px;
+    position: fixed;
+	width:100%;
+	top:55%;
+    left:0px;  
+    margin-top:294px;  
+    border-radius:0 0px 0px 0;
+	box-shadow: 0 0 3px rgba(64,100,138,.3), 0 2px 4px #3b5c7f, 0 12px 18px rgba(64,100,138,.4);
+    
+}
+i {
+    margin-left: 25%;
+}
+.toolbar li {
+    bottom: 0px;
+	float:left;
+	list-style: none;
+	width: 70px;
+}
+
+   
+.toolbar a{
+    bottom: 0px;
+    margin-left: 2px;
+	background: #E1F0FA;
+	background: linear-gradient(to right, rgb(239, 240, 252),rgb(221, 224, 253), #E1F0FA );
+	color: #40648a;
+	display: block;
+	font-size: 27px;
+	height: 50px;
+	line-height: 50px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #fff;
+}
+
+	.toolbar li:last-child a {
+		border-right: none;
+		border-radius:0 4px 4px 0
+	}
+	.toolbar a:hover {
+		background: #A6C5E4;
+
+		color: #fff;
+		text-shadow: 0 1px 0 #40648a;
+	}
+	

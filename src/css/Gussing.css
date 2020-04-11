@@ -1,0 +1,54 @@
+.Gdiv {
+height: 250px;
+width: 250px;
+background-color:rgba(241, 0, 52, 0.56);
+margin-top: 25px;
+box-shadow:  2px 2px 4px rgba(71, 72, 73, 0.66);
+
+}
+#Ginput{
+    border: 2px solid #FF0062;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    outline: none;
+    background: #fff;
+    width: 100px;
+    height: 50px;
+    font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    text-align:center;
+    font-size: 2em;
+    margin-left: 72px;
+    margin-top: 50px;
+ 
+}
+.Gbtn{
+    pointer-events: visibleStroke;
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+    margin-left: 70px;
+    margin-top: 20px;
+    color:  rgb(255, 255, 255); 
+}
+.Gbtn:active{
+    color:  rgb(199, 199, 199); 
+
+}
+.tex{
+    position:relative;
+    z-index:1000;
+    margin-top: 10px;
+    margin-left: 60px;  
+    font-size: 15px;
+    color: honeydew;
+    line-height: 4ex;
+}
+#good{
+    margin-left: 45%; 
+    margin-top: 15%;
+ 
+}

@@ -1,0 +1,95 @@
+.Mdiv {
+        position: relative;
+        margin-top: 25px;
+        background-color: rgba(0, 139, 139, 0.79);
+        box-shadow:  2px 2px 4px rgba(71, 72, 73, 0.66);
+        
+    }    
+.raise{
+        pointer-events: visibleStroke;
+        background: none;
+        border: 2px solid;
+        font: inherit;
+        line-height: 1;
+        margin: 0.5em;
+        padding: 1em 2em;
+        margin-left: 60px;
+        margin-top: 10px;
+        color:  rgb(255, 255, 255); 
+    }
+    .raise:hover,
+    .raise:focus {
+      box-shadow: 0 0.8em 0.6em -0.6em brown;
+    
+      transform: translateY(-0.35em);
+    
+    }
+    /*tabel */
+    .memory {
+        position: absolute;
+        margin: 5px;
+        margin-top: 5px;
+    }
+.memory a {
+        display: block;
+        margin: 3px;
+        padding: 4px;
+        pointer-events: visible;
+       position: relative;
+    }
+.memory img {
+        pointer-events: visible;
+        width: 69px;
+        border: 1px solid rgba(143, 1, 1, 0.54);
+       
+    }
+    table:focus {
+        border: 1px solid blue;
+        outline: 1px solid darkblue;
+    }
+.win{
+        padding-top: 20%;
+        padding-left: 20%;
+        font-size: 30px; 
+        color: #FFFFFF;
+        mix-blend-mode: overlay;
+        background: radial-gradient(ellipse, #797777 50%, #F5F2F2 40%) #A8A8A8 no-repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: slide 3s infinite ease-in-out;
+        box-shadow: 0 0.8em 0.6em -0.6em #FFFFFF;
+        
+        }
+        @keyframes slide{
+          
+             from{ background-position: -70vh center;}
+         
+               to{ background-position: 70vh center;}
+        }
+        #bad{
+            margin-top: 108%;
+            margin-left: 33%;
+            position: absolute; 
+        }
+    #dropM{
+      margin-left: 15px;
+      margin-top: 5px;
+     
+    
+    }
+    #dropMo{
+        margin-left: 15px;
+    
+        pointer-events: visible;
+        padding: 10px  0 10px 10px;
+        background-color: lightgray;
+        font-variant: small-caps;
+        height: 60px;
+        width: 180px;
+        margin-top: 2px;
+       position: absolute;
+        
+       
+        z-index: 10;
+        box-shadow:  0 0 3px rgba(71, 72, 73, 0.66);
+    }
